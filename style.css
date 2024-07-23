@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: ; */
+    padding: 0px 90px;
+    padding-top: 150px;
+    gap: 80px;
+}
+#left{
+    height: 100%;
+    width: 40%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+}
+
+#left h1{
+    font-size: 110px;
+    font-weight: 600;
+    line-height: 155px;
+    font-family: "work sans";
+    /* background-color: red; */
+
+}
+#bottom-left{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#color h5{
+    font-size: 20px ;
+    margin-right: 10px;
+}
+#color{
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+#color1{
+    height: 14px;
+    width: 14px;
+    background-color: brown;
+    border-radius: 50%;
+}
+#color2{
+    height: 14px;
+    width: 14px;
+    background-color: burlywood;
+    border-radius: 50%;
+}
+#left h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+#left p{
+   
+    font-size: 20px;
+    width: 70%;
+    font-weight: 600;
+    color:#444;
+    line-height: 26px; 
+}
+#right{
+    /* border-radius: 20%; */
+    height: 90%;
+    width: 37%;
+    /* background-color: blue; */
+    position: relative;
+}
+#right-top{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#right-top h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "work sans";
+}
+#right-top h5{
+    font-size: 16px;
+
+}
+
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#black-spot{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(159, 159, 198);
+    columns: #fff;
+    border-radius: 50%;
+    right: -10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 30%;
+
+}
+#black-spot h5{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#black-spot h5 i{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#rotated
+{
+    position: absolute;
+    left: -10%;
+    /* background-color: red; */
+    bottom: 0;
+    rotate: -90deg;
+    font-family: "work sans";
+    font-size: 30px;
+    transform-origin: 0 0;
+}
